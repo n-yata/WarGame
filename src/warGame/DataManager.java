@@ -10,7 +10,7 @@ import java.nio.file.Path;
 import java.nio.file.Paths;
 
 public class DataManager {
-	private static String desktopDir = System.getProperty("user.home") + "/Desktop";
+	private static String desktopDir = System.getProperty("user.home");
 	//中断データ
 	private static final String INTERRUPT_FILE = desktopDir + "/game_interrupt.dat";
 	//結果データ
